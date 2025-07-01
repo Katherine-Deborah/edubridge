@@ -1,0 +1,38 @@
+{
+  "name": "student-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:up": "docker-compose up -d postgres",
+    "db:down": "docker-compose down",
+    "db:reset": "docker-compose down -v && docker-compose up -d postgres",
+    "db:logs": "docker-compose logs -f postgres",
+    "pgadmin:up": "docker-compose up -d pgadmin",
+    "services:up": "docker-compose up -d",
+    "services:down": "docker-compose down"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "formik": "^2.4.6",
+    "jsonwebtoken": "^9.0.2",
+    "next": "15.3.5",
+    "pg": "^8.16.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/pg": "^8.15.4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.5",
+    "tailwindcss": "^4"
+  }
+}
