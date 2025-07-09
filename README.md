@@ -19,8 +19,9 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/edubridge.git
+git clone https://github.com/Katherine-Deborah/edubridge.git
 cd edubridge
+cd student-dashboard
 ```
 
 ### 2. Install Dependencies
